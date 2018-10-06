@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30D1BA01A6C378F00C72874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D1B9F1A6C378F00C72874 /* AppDelegate.m */; };
+		B30D1BA21A6C378F00C72874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D1BA11A6C378F00C72874 /* main.m */; };
+		B30D1BA41A6C378F00C72874 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30D1BA31A6C378F00C72874 /* Images.xcassets */; };
+		B30D1BA71A6C378F00C72874 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B30D1BA51A6C378F00C72874 /* MainMenu.xib */; };
+		B30D1BB31A6C378F00C72874 /* AutomatikTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B30D1BB21A6C378F00C72874 /* AutomatikTests.m */; };
+		B31EA3151A900B0900A7EBEF /* window.png in Resources */ = {isa = PBXBuildFile; fileRef = B31EA3141A900B0900A7EBEF /* window.png */; };
+		B32745C91A8D54C6006F3393 /* notification_example.png in Resources */ = {isa = PBXBuildFile; fileRef = B32745C81A8D54C6006F3393 /* notification_example.png */; };
+		B332B04F1A7D353E008D9FE1 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B332B04E1A7D353E008D9FE1 /* menu_icon.png */; };
+		B38FC8441AA3589B003EF2CC /* splash_full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B38FC8431AA3589B003EF2CC /* splash_full.jpg */; };
+		B3CA17AF1ACC896300F2804D /* Automatik manual.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B3CA17AE1ACC896300F2804D /* Automatik manual.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B30D1BAD1A6C378F00C72874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B30D1B911A6C378F00C72874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B30D1B981A6C378F00C72874;
+			remoteInfo = Automatik;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B30D1B991A6C378F00C72874 /* Automatik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Automatik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30D1B9D1A6C378F00C72874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30D1B9E1A6C378F00C72874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B30D1B9F1A6C378F00C72874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B30D1BA11A6C378F00C72874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B30D1BA31A6C378F00C72874 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B30D1BA61A6C378F00C72874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B30D1BAC1A6C378F00C72874 /* AutomatikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomatikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30D1BB11A6C378F00C72874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30D1BB21A6C378F00C72874 /* AutomatikTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomatikTests.m; sourceTree = "<group>"; };
+		B31EA3141A900B0900A7EBEF /* window.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = window.png; sourceTree = "<group>"; };
+		B32420821A952A4F00DB6006 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B32745C81A8D54C6006F3393 /* notification_example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_example.png; sourceTree = "<group>"; };
+		B332B04E1A7D353E008D9FE1 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		B38FC8431AA3589B003EF2CC /* splash_full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash_full.jpg; sourceTree = "<group>"; };
+		B3CA17AE1ACC896300F2804D /* Automatik manual.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Automatik manual.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30D1B961A6C378F00C72874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30D1BA91A6C378F00C72874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30D1B901A6C378F00C72874 = {
+			isa = PBXGroup;
+			children = (
+				B32420821A952A4F00DB6006 /* SystemConfiguration.framework */,
+				B30D1B9B1A6C378F00C72874 /* Automatik */,
+				B30D1BAF1A6C378F00C72874 /* AutomatikTests */,
+				B30D1B9A1A6C378F00C72874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30D1B9A1A6C378F00C72874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30D1B991A6C378F00C72874 /* Automatik.app */,
+				B30D1BAC1A6C378F00C72874 /* AutomatikTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30D1B9B1A6C378F00C72874 /* Automatik */ = {
+			isa = PBXGroup;
+			children = (
+				B332B0501A7D3543008D9FE1 /* Media */,
+				B30D1B9E1A6C378F00C72874 /* AppDelegate.h */,
+				B30D1B9F1A6C378F00C72874 /* AppDelegate.m */,
+				B30D1BA31A6C378F00C72874 /* Images.xcassets */,
+				B30D1BA51A6C378F00C72874 /* MainMenu.xib */,
+				B30D1B9C1A6C378F00C72874 /* Supporting Files */,
+			);
+			path = Automatik;
+			sourceTree = "<group>";
+		};
+		B30D1B9C1A6C378F00C72874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B30D1B9D1A6C378F00C72874 /* Info.plist */,
+				B30D1BA11A6C378F00C72874 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B30D1BAF1A6C378F00C72874 /* AutomatikTests */ = {
+			isa = PBXGroup;
+			children = (
+				B30D1BB21A6C378F00C72874 /* AutomatikTests.m */,
+				B30D1BB01A6C378F00C72874 /* Supporting Files */,
+			);
+			path = AutomatikTests;
+			sourceTree = "<group>";
+		};
+		B30D1BB01A6C378F00C72874 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B30D1BB11A6C378F00C72874 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B332B0501A7D3543008D9FE1 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				B32745C81A8D54C6006F3393 /* notification_example.png */,
+				B3CA17AE1ACC896300F2804D /* Automatik manual.pdf */,
+				B38FC8431AA3589B003EF2CC /* splash_full.jpg */,
+				B31EA3141A900B0900A7EBEF /* window.png */,
+				B332B04E1A7D353E008D9FE1 /* menu_icon.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30D1B981A6C378F00C72874 /* Automatik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30D1BB61A6C378F00C72874 /* Build configuration list for PBXNativeTarget "Automatik" */;
+			buildPhases = (
+				B30D1B951A6C378F00C72874 /* Sources */,
+				B30D1B961A6C378F00C72874 /* Frameworks */,
+				B30D1B971A6C378F00C72874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Automatik;
+			productName = Automatik;
+			productReference = B30D1B991A6C378F00C72874 /* Automatik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B30D1BAB1A6C378F00C72874 /* AutomatikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30D1BB91A6C378F00C72874 /* Build configuration list for PBXNativeTarget "AutomatikTests" */;
+			buildPhases = (
+				B30D1BA81A6C378F00C72874 /* Sources */,
+				B30D1BA91A6C378F00C72874 /* Frameworks */,
+				B30D1BAA1A6C378F00C72874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B30D1BAE1A6C378F00C72874 /* PBXTargetDependency */,
+			);
+			name = AutomatikTests;
+			productName = AutomatikTests;
+			productReference = B30D1BAC1A6C378F00C72874 /* AutomatikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30D1B911A6C378F00C72874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marco Dalprato";
+				TargetAttributes = {
+					B30D1B981A6C378F00C72874 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B30D1BAB1A6C378F00C72874 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B30D1B981A6C378F00C72874;
+					};
+				};
+			};
+			buildConfigurationList = B30D1B941A6C378F00C72874 /* Build configuration list for PBXProject "Automatik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30D1B901A6C378F00C72874;
+			productRefGroup = B30D1B9A1A6C378F00C72874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30D1B981A6C378F00C72874 /* Automatik */,
+				B30D1BAB1A6C378F00C72874 /* AutomatikTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30D1B971A6C378F00C72874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332B04F1A7D353E008D9FE1 /* menu_icon.png in Resources */,
+				B38FC8441AA3589B003EF2CC /* splash_full.jpg in Resources */,
+				B32745C91A8D54C6006F3393 /* notification_example.png in Resources */,
+				B3CA17AF1ACC896300F2804D /* Automatik manual.pdf in Resources */,
+				B31EA3151A900B0900A7EBEF /* window.png in Resources */,
+				B30D1BA41A6C378F00C72874 /* Images.xcassets in Resources */,
+				B30D1BA71A6C378F00C72874 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30D1BAA1A6C378F00C72874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30D1B951A6C378F00C72874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30D1BA21A6C378F00C72874 /* main.m in Sources */,
+				B30D1BA01A6C378F00C72874 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30D1BA81A6C378F00C72874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B30D1BB31A6C378F00C72874 /* AutomatikTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B30D1BAE1A6C378F00C72874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B30D1B981A6C378F00C72874 /* Automatik */;
+			targetProxy = B30D1BAD1A6C378F00C72874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B30D1BA51A6C378F00C72874 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30D1BA61A6C378F00C72874 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30D1BB41A6C378F00C72874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B30D1BB51A6C378F00C72874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B30D1BB71A6C378F00C72874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Automatik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B30D1BB81A6C378F00C72874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Automatik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B30D1BBA1A6C378F00C72874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutomatikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatik.app/Contents/MacOS/Automatik";
+			};
+			name = Debug;
+		};
+		B30D1BBB1A6C378F00C72874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AutomatikTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Automatik.app/Contents/MacOS/Automatik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30D1B941A6C378F00C72874 /* Build configuration list for PBXProject "Automatik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30D1BB41A6C378F00C72874 /* Debug */,
+				B30D1BB51A6C378F00C72874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30D1BB61A6C378F00C72874 /* Build configuration list for PBXNativeTarget "Automatik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30D1BB71A6C378F00C72874 /* Debug */,
+				B30D1BB81A6C378F00C72874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30D1BB91A6C378F00C72874 /* Build configuration list for PBXNativeTarget "AutomatikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30D1BBA1A6C378F00C72874 /* Debug */,
+				B30D1BBB1A6C378F00C72874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B30D1B911A6C378F00C72874 /* Project object */;
+}
